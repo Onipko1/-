@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'ACLine';
+    src:  url(ACLine.otf);
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'ACLine';
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    height: 100%;
+}
+.wrapper{
+    max-width: 1600px;
+    margin: auto;
+    padding: 10px;
+    background: #43546e;
+    min-height: 100%;
+}
+#register_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#register_block > div{
+    margin: 0px 30px;
+}
+a{
+    padding: 20px;
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+header {
+    background: url(logo.jpg);
+    height: 200px;
+    text-align: left;
+    background-size: contain;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-size: 34px;
+    font-weight: bold;
+}
+#wanted_block{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap_wanted img{
+    border-radius: 100px;
+    border: 1px solid gray;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.wrap_wanted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    color: red;
+    background: white;
+    padding: 20px;
+    font-weight: 800;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.ok{
+    color: green;
+    background: white;
+    padding: 20px;
+    font-weight: 800;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#content_block{
+    margin-top: 30px;
+    text-align: center;
+}
+footer{
+    background: #0f2344;
+    padding: 30px;
+    margin-top: 30px;
+}
+#form2{
+    display: flex;
+    align-items: end;
+}
+.form_in{
+margin: 10px;
+}
+form{
+    border: 2px solid white;
+    margin: 5px;
+}
